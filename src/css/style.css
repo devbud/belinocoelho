@@ -1,0 +1,81 @@
+/* BELINO COELHO V.1.0
+BudHelisson Designer & Developer | www.helisson.com.br 
+*/
+/* Main Sass File */
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700");
+/* Base Styles -------------------- */
+body {
+  font-family: "Roboto Condensed", sans-serif; }
+
+/* Custom Mixins -------------------- */
+/* HIDDEN */
+.hidden {
+  display: none !important; }
+
+a:before,
+a:after {
+  cursor: pointer;
+  -webkit-transition: 0.3s all;
+  -o-transition: 0.2s all;
+  -moz-transition: 0.2s all;
+  -ms-transition: 0.2s all;
+  transition: 0.2s all; }
+
+a {
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -ms-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-timing-function: ease;
+  -moz-transition-timing-function: ease;
+  -ms-transition-timing-function: ease;
+  -o-transition-timing-function: ease;
+  transition-timing-function: ease;
+  -webkit-transition-duration: 250ms;
+  -moz-transition-duration: 250ms;
+  -ms-transition-duration: 250ms;
+  -o-transition-duration: 250ms;
+  transition-duration: 250ms;
+  -webkit-transition-delay: 0s;
+  -moz-transition-delay: 0s;
+  -ms-transition-delay: 0s;
+  -o-transition-delay: 0s;
+  transition-delay: 0s;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+/* EFFECT SCALE*/
+.effect-scale {
+  transition: opacity .25s ease-in-out;
+  -o-transition: opacity .25s ease-in-out;
+  -ms-transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+  -webkit-transition: 0.3s all;
+  -o-transition: 0.2s all;
+  -moz-transition: 0.2s all;
+  -ms-transition: 0.2s all;
+  transition: 0.2s all; }
+  .effect-scale:hover {
+    -webkit-transform: scale(1.05, 1.05);
+    -moz-transform: scale(1.05, 1.05);
+    -ms-transform: scale(1.05, 1.05);
+    -o-transform: scale(1.05, 1.05);
+    transform: scale(1.05, 1.05); }
+
+.save-png {
+  width: 100%;
+  background: url(../img/belino.png) top center no-repeat;
+  background-size: cover;
+  height: 8281px; }
+
+.min-height {
+  border: 1px dashed #ccc;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  padding-top: 20px; }
+
+/* MEDIA QUERIES */
